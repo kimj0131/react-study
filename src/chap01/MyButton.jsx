@@ -7,7 +7,7 @@ function MyButton(props) {
 
 	return (
 		<button onClick={() => setIsClicked(true)}>
-			{isClicked ? `잘하셨습니다 ${props.name}님` : `여기를 누르세요 ${props.name}님`}
+			{isClicked ? "잘하셨습니다" : `여기를 누르세요 ${props.name}님`}
 		</button>
 	);
 }

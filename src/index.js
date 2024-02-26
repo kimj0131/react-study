@@ -1,7 +1,7 @@
 import React from "react";
 import ReactDOM from "react-dom/client";
 import "./index.css";
-import App from "./App";
+// import App from "./App";
 import reportWebVitals from "./reportWebVitals";
 import MyButton from "./chap01/MyButton";
 import DrinkList from "./chap01/DrinkList";
@@ -9,7 +9,7 @@ import DrinkList from "./chap01/DrinkList";
 const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
 	<React.StrictMode>
-		<MyButton name="user" age="20" />
+		<MyButton name="user" />
 		<DrinkList />
 		{/* <App /> */}
 	</React.StrictMode>
