@@ -5,17 +5,24 @@ import "./index.css";
 import reportWebVitals from "./reportWebVitals";
 // import MyButton from "./chap01/MyButton";
 // import DrinkList from "./chap01/DrinkList";
-import Clock from "./chap02/Clock";
+// import Clock from "./chap02/Clock";
+import ProfileList from "./chap03/ProfileList";
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
 
-setInterval(() => {
-	root.render(
-		<React.StrictMode>
-			<Clock />
-		</React.StrictMode>
-	);
-}, 1000);
+// setInterval(() => {
+// 	root.render(
+// 		<React.StrictMode>
+// 			<Clock />
+// 		</React.StrictMode>
+// 	);
+// }, 1000);
+
+root.render(
+	<React.StrictMode>
+		<ProfileList />
+	</React.StrictMode>
+);
 
 // If you want to start measuring performance in your app, pass a function
 // to log results (for example: reportWebVitals(console.log))
